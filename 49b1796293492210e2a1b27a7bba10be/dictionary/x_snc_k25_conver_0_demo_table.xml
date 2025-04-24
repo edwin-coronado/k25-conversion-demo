@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52f171a293492210e2a1b27a7bba1058" label="Demo table" max_length="40" name="x_snc_k25_conver_0_demo_table" type="collection">
+        <element display="true" label="My string" mandatory="true" max_length="400" name="my_string" type="string"/>
+        <element label="My reference" max_length="32" name="my_reference" read_only="true" reference="task" type="reference"/>
+        <index name="index">
+            <element name="my_reference"/>
+        </index>
+    </element>
+</database>
